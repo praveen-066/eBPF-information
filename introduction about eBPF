@@ -1,0 +1,11 @@
+eBPF  is a new tecnology and eBPF stands for (extended Berkely packet filter)
+Which is modren linux tecnology used for security, monitoring performance and observability.
+eBPF is linux feature that allows the small program ot run safly inside the linux kernal
+eBPF helps to observe the what the system is doing inernally, in real time...
+Why eBPF is needed..?
+"modren system uses the containers, microservices and cloude platform like kubernetes.
+traditional monitoring tools run in ures space and min=ss low level details"
+So eBPS solves this problem by running in directly inside the kernal without modifyinf the kernal or application code ...
+why the eBPF is running in kernal is powerfull?
+becouse the kernal is control everthing like process, files, network , and memory system so since eBPF run in kernal , it get the accurate and real time information !
+"this makes the eBPFmfaster and reliable than the traditonal tools"
