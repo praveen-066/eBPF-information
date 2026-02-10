@@ -1,0 +1,13 @@
+how the eBPF is working inside the system
+1. eBPF programs..(Events attachment)
+* it means the eBPF is not run all the  time
+* because they are attached with the specific kernal like system calls, file access , and network packet
+* when ever the event is happean the eBPF program is triggered autometicly..
+2. BPF verification (very important)
+*before the eBPF program is allowed to run it checked by a BPF varifier
+the verifer is ensuers that the program is safe and there is no crash to system..\
+3. JIT compiler (just in time compailer),,,
+after varification the program is optimized by the JIT compailer 
+this makes the eBPF program is exstreamly fast and efficent
+4 . what happens finaly..?
+once the verification and complied , the eBPF program runs evenever  the attached kernal event occours, it give the real time insights into system behavior
